@@ -1,6 +1,6 @@
 html {overflow-y: scroll}
-:root { --bgcolor: white; --fontcolor: #444; --linkcolor: #00e; --visitedcolor: #551a8b; --precolor: #fff; --prebgcolor: #000;}
-@media (prefers-color-scheme: dark) { :root { --bgcolor: black; --fontcolor: white; --linkcolor: #5bf; --visitedcolor: #ae5ee0; --precolor: #fff; --prebgcolor: #383838;}}
+:root { --bgcolor: #F8F8F8; --fontcolor: #404040 ; --linkcolor: #CDA434; --visitedcolor: #CD7F32; --precolor: #2E2E2E; --prebgcolor: #F2F2F2;}
+@media (prefers-color-scheme: dark) {:root { --bgcolor: #40464D; --fontcolor: #C0C0C0; --linkcolor: #DAA520; --visitedcolor: #CDAD00; --precolor: #D0D0D0; --prebgcolor: #333333;}}
 body{max-width:800px;min-height:100vh;display:flex;flex-direction:column;margin:0 auto;padding:0 10px;font:14px/1.5 monospace;color:var(--fontcolor); background: var(--bgcolor)}
 a:link{color: var(--linkcolor)}a:visited{color: var(--visitedcolor)}a:active{color: var(--visitedcolor)}h1,h2,h3{line-height:1.2}
 p > code{color: var(--precolor); background: var(--prebgcolor); padding:2px}

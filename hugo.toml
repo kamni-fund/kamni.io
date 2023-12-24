@@ -2,22 +2,59 @@ baseURL = "https://kamni.io/"
 languageCode = "ru-RU"
 title = "KAMNI"
 theme = "smol"
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = true
 [params]
 subtitle = "Семейный фонд"
 dateFmt = "02.01.2006 15:04"
-[menu]
-[[menu.main]]
+[languages]
+[languages.ru]
+contentDir = "content/ru"
+disabled = false
+languageCode = "ru-RU"
+languageDirection = "ltr"
+languageName = "Russian"
+title = "KAMNI"
+weight = 1
+[languages.ru.params]
+subtitle = "Семейный фонд"
+[[languages.ru.menu.main]]
 identifier = "about"
 name = "О Фонде"
-url = "/about"
+url = "/ru/about"
 weight = 1
-[[menu.main]]
+[[languages.ru.menu.main]]
 identifier = "tokens"
 name = "Токены"
-url = "/tokens/"
+url = "/ru/tokens/"
 weight = 2
-[[menu.main]]
+[[languages.ru.menu.main]]
 identifier = "verification"
 name = "Верификация"
-url = "/verification/"
+url = "/ru/verification/"
+weight = 3
+[languages.en]
+contentDir = "content/en"
+disabled = true
+languageCode = "en-US"
+languageDirection = "ltr"
+languageName = "English"
+title = "KAMNI"
+weight = 2
+[languages.en.params]
+subtitle = "Family fund"
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About Fund"
+url = "/en/about"
+weight = 1
+[[languages.en.menu.main]]
+identifier = "tokens"
+name = "Tokens"
+url = "/en/tokens/"
+weight = 2
+[[languages.en.menu.main]]
+identifier = "verification"
+name = "Verification"
+url = "/en/verification/"
 weight = 3
