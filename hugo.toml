@@ -1,0 +1,23 @@
+baseURL = "https://kamni.io/"
+languageCode = "ru-RU"
+title = "KAMNI"
+theme = "smol"
+[params]
+subtitle = "Семейный фонд"
+dateFmt = "02.01.2006 15:04"
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "О Фонде"
+url = "/about"
+weight = 1
+[[menu.main]]
+identifier = "tokens"
+name = "Токены"
+url = "/tokens/"
+weight = 2
+[[menu.main]]
+identifier = "verification"
+name = "Верификация"
+url = "/verification/"
+weight = 3

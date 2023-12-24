@@ -1,0 +1,8 @@
+<footer>
+	<p>&copy; {{ now.Year }} <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.</p>
+	<p>
+	{{- range .Site.Menus.footer }}
+	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
+        {{- end }}
+	</p>
+</footer>
