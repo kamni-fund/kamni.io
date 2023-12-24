@@ -1,15 +1,110 @@
-html {overflow-y: scroll}
-:root { --bgcolor: #F8F8F8; --fontcolor: #404040 ; --linkcolor: #CDA434; --visitedcolor: #CD7F32; --precolor: #2E2E2E; --prebgcolor: #F2F2F2;}
-@media (prefers-color-scheme: dark) {:root { --bgcolor: #40464D; --fontcolor: #C0C0C0; --linkcolor: #DAA520; --visitedcolor: #CDAD00; --precolor: #D0D0D0; --prebgcolor: #333333;}}
-body{max-width:800px;min-height:100vh;display:flex;flex-direction:column;margin:0 auto;padding:0 10px;font:14px/1.5 monospace;color:var(--fontcolor); background: var(--bgcolor)}
-a:link{color: var(--linkcolor)}a:visited{color: var(--visitedcolor)}a:active{color: var(--visitedcolor)}h1,h2,h3{line-height:1.2}
-p > code{color: var(--precolor); background: var(--prebgcolor); padding:2px}
-code{color: var(--precolor); background: var(--prebgcolor); padding:2px}
-pre{color: var(--precolor); background: var(--prebgcolor); padding:24px; overflow-x: auto}
-article{padding:24px 0}
-.center {display: block;margin-left: auto;margin-right: auto;width: 100%;}
-figcaption {color: #888; font: 12px/1.5 monospace; text-align: center;}
-figure {margin: auto}
-img {display: block; max-width: 100%; height: auto; margin: auto}
-header {padding: 10px 0;}
-footer {margin-top:auto;}
+/* General Styles */
+html {
+    overflow-y: scroll;
+}
+  
+:root {
+    --bgcolor: #F8F8F8;
+    --fontcolor: #404040;
+    --linkcolor: #CDA434;
+    --visitedcolor: #CD7F32;
+    --precolor: #2E2E2E;
+    --prebgcolor: #F2F2F2;
+}
+  
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bgcolor: #40464D;
+        --fontcolor: #C0C0C0;
+        --linkcolor: #DAA520;
+        --visitedcolor: #CDAD00;
+        --precolor: #D0D0D0;
+        --prebgcolor: #333333;
+    }
+}
+  
+/* Body Styles */
+body {
+    max-width: 800px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 10px;
+    font: 14px/1.5 monospace;
+    color: var(--fontcolor);
+    background: var(--bgcolor);
+}
+  
+/* Link Styles */
+a:link {
+    color: var(--linkcolor);
+}
+  
+a:visited {
+    color: var(--visitedcolor);
+}
+  
+a:active {
+    color: var(--visitedcolor);
+}
+  
+/* Heading Styles */
+h1, h2, h3 {
+    line-height: 1.2;
+}
+  
+/* Code Styles */
+p > code, code, pre {
+    color: var(--precolor);
+    background: var(--prebgcolor);
+    padding: 2px;
+}
+  
+pre {
+    padding: 24px;
+    overflow-x: auto;
+}
+  
+/* Article Styles */
+article {
+    padding: 24px 0;
+}
+  
+/* Centering Styles */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+  
+/* Figure Styles */
+figcaption {
+    color: #888;
+    font: 12px/1.5 monospace;
+    text-align: center;
+}
+  
+figure {
+    margin: auto;
+}
+  
+/* Image Styles */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+  
+/* Header Styles */
+header {
+    padding: 10px 0;
+}
+  
+/* Footer Styles */
+footer {
+    margin-top: auto;
+}
+  
