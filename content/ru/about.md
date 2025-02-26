@@ -10,7 +10,7 @@ draft = false
 
 Адрес на блокчейне Stellar: `GCUEVVS4KIHZM72DAHKXIRWSCN3V3Y4KX6UNNUU7PV73VQK44CNKAMNI`
 
-Почта для заявок на верификацию: [verification@kamni.io](mailto:verification@kamni.io).
+Почта для заявок на верификацию: [verify@kamni.io](mailto:verify@kamni.io).
 
 Публичный GPG-ключ:
 ```
