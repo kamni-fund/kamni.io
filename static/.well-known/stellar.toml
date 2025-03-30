@@ -1,0 +1,41 @@
+VERSION = "2.0.0"
+
+ACCOUNTS = [
+  "GD5GTXUSBYEKLN242J2QWPTPGRXXV7KKW4FP4YQPP5ZZQ3AA25HNHN3A",
+  "GCUEVVS4KIHZM72DAHKXIRWSCN3V3Y4KX6UNNUU7PV73VQK44CNKAMNI",
+  "GDJAKO7WBQ4JCPWGTMVLAVKHDIWDY65HVCDU5PINEXKOA5EVFXBPTHNX",
+]
+
+[DOCUMENTATION]
+ORG_NAME = "KAMNI"
+ORG_URL = "https://kamni.io"
+ORG_DESCRIPTION = "Family fund"
+ORG_OFFICIAL_EMAIL = "stanislav@kamni.io"
+ORG_SUPPORT_EMAIL = "stanislav@kamni.io"
+
+[[PRINCIPALS]]
+name = "Stanislav Karkavin"
+email = "stanislav@kamni.io"
+keybase = "xdefrag"
+twitter = "xdefrag"
+github = "xdefrag"
+
+[[CURRENCIES]]
+code = "STAS"
+issuer = "GCUEVVS4KIHZM72DAHKXIRWSCN3V3Y4KX6UNNUU7PV73VQK44CNKAMNI"
+status = "live"
+display_decimals = 0
+name = "STAS"
+desc = "Stanislav Karkavin working hour"
+is_unlimited = true
+image = "https://kamni.io/.well-known/stas.png"
+
+[[CURRENCIES]]
+code = "PANARCHY"
+issuer = "GCUEVVS4KIHZM72DAHKXIRWSCN3V3Y4KX6UNNUU7PV73VQK44CNKAMNI"
+status = "live"
+display_decimals = 0
+name = "PANARCHY"
+desc = "PANARCHY NOW thanks token"
+is_unlimited = true
+image = "https://kamni.io/.well-known/panarchy.png"
